@@ -1,0 +1,9 @@
+.custom-header {
+  background-color: #96ecef !important; /* purple background */
+}
+
+.custom-header .navbar-brand,
+.custom-header .nav-link {
+  color: black !important; /* ✅ change text to black */
+  font-weight: bold;       /* optional: make text bold */
+}
