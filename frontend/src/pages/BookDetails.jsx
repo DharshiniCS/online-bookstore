@@ -18,7 +18,7 @@ const BookDetails = () => {
   const fetchBook = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`http://localhost:5002/api/books/${id}`);
+      const res = await axios.get(`https://bookstore-backend.onrender.com/api/books/${id}`);
 
       console.log("Fetched book:", res.data); // ✅ log full book
       setBook(res.data);

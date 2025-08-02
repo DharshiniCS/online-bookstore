@@ -10,8 +10,8 @@ const Home = () => {
   const { addToCart } = useCart();
 
   useEffect(() => {
-    axios
-      .get("http://localhost:5002/api/books")
+    axios.get("https://bookstore-backend.onrender.com/api/books")
+
       .then((res) => {
         setBooks(res.data);
         setLoading(false);
