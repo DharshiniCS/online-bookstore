@@ -9,8 +9,8 @@ const books = [
     title: "Mistborn: The Final Empire",
     description: "A thrilling tale of magic and rebellion...",
     price: 450,
-    image: "/mistborn.jpg" // ✅ moved from "/images/mistborn.jpg"
-  },
+    image: "/mistborn.jpg" //
+  }, 
   {
     title: "The Hobbit",
     description: "Bilbo Baggins embarks on a magical adventure...",
